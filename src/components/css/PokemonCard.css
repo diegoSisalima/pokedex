@@ -1,0 +1,124 @@
+.pokemon-card {
+  width: 275px;
+  text-align: center;
+  text-transform: capitalize;
+  position: relative;
+  padding: 0 4px 4px 4px;
+  border-radius: 0.5rem;
+  transition: transform 300ms ease;
+}
+.pokemon-card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.pokemon-card img {
+  position: absolute;
+  top: -3rem;
+  left: -40px;
+  width: 7rem;
+  height: auto;
+}
+.pokemon-card h2 {
+  text-shadow: 1px 1px 8px black;
+  margin-bottom: 0.5rem;
+}
+.types {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 0.5rem;
+}
+.types p {
+  border-radius: 1rem;
+  padding: 3px 6px;
+  background-color: #8ba0a4;
+  text-shadow: 1px 1px 8px black;
+  box-shadow: 1px 1px 3px black;
+  font-size: small;
+}
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.stats div {
+  padding: 4px 0;
+}
+.stats div p {
+  text-shadow: 1px 1px 8px black;
+}
+.atack,
+.atack-special {
+  background-color: #d69e49;
+}
+.hp {
+  background-color: #007f4e;
+}
+.defense {
+  background-color: #525e75;
+}
+.speed {
+  background-color: #58508d;
+}
+/*---dinamic styles---*/
+.bg-normal {
+  background-color: #d7d0cd;
+}
+.bg-fighting {
+  background-color: #d74a49;
+}
+.bg-flying {
+  background-color: #ac6f82;
+}
+.bg-poison {
+  background-color: #893f71;
+}
+.bg-ground {
+  background-color: #a98467;
+}
+.bg-rock {
+  background-color: #a3b7ca;
+}
+.bg-bug {
+  background-color: #315c45;
+}
+.bg-ghost {
+  background-color: #413344;
+}
+.bg-steel {
+  background-color: #567d99;
+}
+.bg-fire {
+  background-color: #f39c12;
+}
+.bg-water {
+  background-color: #2980b9;
+}
+.bg-grass {
+  /* background-color: #8ba0a4; */
+  background-color: #27ae60;
+}
+.bg-electric {
+  background-color: #ffd6a5;
+}
+.bg-psychic {
+  background-color: #596157;
+}
+.bg-ice {
+  background-color: #88a2c4;
+}
+.bg-dragon {
+  background-color: #475492;
+}
+.bg-dark {
+  background-color: #141e26;
+}
+.bg-fairy {
+  background-color: #fb878e;
+}
+.bg-water {
+  background-color: #2980b9;
+}
+
+.bg-water {
+  background-color: #2980b9;
+}

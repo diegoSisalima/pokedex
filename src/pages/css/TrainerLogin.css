@@ -1,0 +1,29 @@
+.trainer-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  gap: 1rem;
+}
+.single-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.single-input input {
+  border-radius: 0.5rem;
+  height: 2.5rem;
+}
+.single-input input:focus {
+  outline: none;
+}
+.single-input button {
+  height: 40px;
+}
+.trainer-login img {
+  width: 9rem;
+  height: auto;
+  position: fixed;
+  bottom: 0px;
+}

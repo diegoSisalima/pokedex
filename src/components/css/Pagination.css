@@ -1,0 +1,20 @@
+.pagination {
+  display: flex;
+  gap: 1rem;
+  border: 3px solid white;
+  background-color: #242424;
+  position: fixed;
+  bottom: 1rem;
+  z-index: 1;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+.pagination li {
+  transition: transform 300ms ease;
+}
+.pagination li:hover,
+.pagination-active {
+  cursor: pointer;
+  transform: scale(1.5);
+  color: yellow;
+}

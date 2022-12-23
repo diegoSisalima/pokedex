@@ -1,0 +1,61 @@
+.pokedex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+  padding-top: 1rem;
+}
+.pokedex h4 {
+  margin-bottom: 1rem;
+}
+.input {
+  /*Variables*/
+  --width-input: 300px;
+  --height-input: 2.5rem;
+  --bg-button: #003f5c;
+
+  width: fit-content;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+.input input {
+  height: var(--height-input);
+  width: var(--width-input);
+  border-radius: var(--height-input);
+  border: 1px solid gray;
+  padding-left: 1rem;
+  font-size: calc(var(--height-input) / 2);
+}
+.input input:focus {
+  outline: none;
+}
+.input button {
+  height: var(--height-input);
+  width: var(--height-input);
+  border: 1px solid gray;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: var(--bg-button);
+  position: absolute;
+  right: 0;
+}
+.input .bx-search-alt-2 {
+  font-size: calc(var(--height-input) / 1.5);
+  color: whitesmoke;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  padding-top: 3rem;
+}
+.select {
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}

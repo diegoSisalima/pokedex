@@ -1,0 +1,161 @@
+/*utilities*/
+.txt-shadow {
+  text-shadow: 1px 1px 8px black;
+}
+/*styles*/
+.pokedexid {
+  text-align: center;
+  padding: 0 1rem;
+  /* max-width: 1280px;
+  min-height: 90vh;
+  margin: 0 auto; */
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.pokedexid section:nth-child(1) {
+  flex-grow: 0.3;
+}
+.pokedexid fieldset,
+.pokedexid .stats-base-container {
+  border-radius: 1.5rem;
+  border: none;
+}
+.pokedexid img {
+  width: 300px;
+  height: auto;
+}
+.pokedexid fieldset {
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+.pokedexid legend {
+  text-transform: capitalize;
+  padding: 0.5rem 4rem;
+  border-radius: 2rem;
+}
+.pokedexid legend h2 {
+  font-size: xx-large;
+  padding-bottom: 0.5rem;
+}
+.pokedexid legend p {
+  font-size: small;
+}
+.pokedexid fieldset ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pokedexid fieldset li {
+  border: 3px solid #242424;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #8ba0a4;
+  /* background: linear-gradient(115deg, #e2bbc4, #6a568a); */
+}
+.container_type_habilities {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.container_type_habilities div h2 {
+  margin-bottom: 1rem;
+}
+.container_type_habilities ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.container_type_habilities .type {
+  flex-grow: 1;
+  background-color: #008585;
+}
+.container_type_habilities .habilities {
+  flex-grow: 1;
+  background-color: #ff6361;
+}
+.container_type_habilities .habilities,
+.container_type_habilities .type {
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+.container_type_habilities .habilities li,
+.container_type_habilities .type li {
+  border-radius: 1rem;
+  padding: 3px 6px;
+  box-shadow: 1px 1px 3px black;
+  font-size: small;
+}
+.container_type_habilities .habilities li {
+  background-color: #8ba0a4;
+}
+.stats-base-container {
+  text-transform: capitalize;
+}
+.stats-base-container h2 {
+  padding-bottom: 0.5rem;
+}
+.stats-base-container .statsDetail {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 2rem;
+}
+.statsDetail p:nth-child(1) {
+  width: 3.5rem;
+  text-align: left;
+}
+.stats-base-container .atack {
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+.stats-base-container .speed {
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+.stats-base-container progress {
+  flex-grow: 1;
+  font-size: 1.4rem;
+}
+.movements {
+  padding: 0.5rem 0;
+  flex-grow: 0.2;
+  width: 6rem;
+}
+.movements ul {
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+  max-height: 815px;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.movements h2 {
+  margin-bottom: 0.5rem;
+}
+.movements li {
+  border-radius: 1rem;
+  padding: 3px 6px;
+  box-shadow: 1px 1px 3px black;
+  font-size: small;
+  background-color: #8ba0a4;
+}
+@media screen and (max-width: 800px) {
+  .pokedexid {
+    display: block;
+  }
+  .pokedexid legend {
+    padding: 0.5rem 2rem;
+  }
+  .statsDetail p:nth-child(1) {
+    width: 6.5rem;
+  }
+  .statsDetail p:nth-child(3) {
+    width: 8rem;
+  }
+  .movements {
+    width: 100%;
+  }
+}
